@@ -11,8 +11,8 @@ let fibo = 1;
 
 for (let contador = 0; contador < 10; contador ++) { 
     fibonacci = fibonacci
-    fibonacci + fibo
-    fibonacci = fibonacci + contador;
-    console.log (fibonacci)
+    fibo = fibo + fibo++
+    
+    console.log (fibonacci + fibo) 
 }
 
